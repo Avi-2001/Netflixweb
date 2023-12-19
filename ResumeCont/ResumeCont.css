@@ -1,0 +1,42 @@
+.content-wrapper{
+    height: 100vh;
+    width: 100%;
+}
+.skills{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.skill-card{
+    height: 330px;
+    width: 500px;
+    margin-top: 50px;
+    background-color: rgb(180, 192, 252);
+    padding: 10px;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+.card-head h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+.card-body{
+    text-align: center;
+    margin-top: 10px;
+}
+.card-foot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-foot button{
+    text-align: center;
+    width: 100px;
+    height: 30px;
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
